@@ -1,6 +1,5 @@
 package cc.ifnot.list;
 
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -74,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
              * */
 
             TextView textView = new TextView(MainActivity.this);
-            ViewGroup.LayoutParams layoutParams = new ActionBar.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
+            ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
                     ViewGroup.LayoutParams.WRAP_CONTENT);
             textView.setLayoutParams(layoutParams);
 
